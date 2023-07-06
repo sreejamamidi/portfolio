@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@1,600&display=swap');
+.bannerBgImage {
+    height: 100vh;
+    background: url(../images/bg_image.jpg);
+    background-size: cover;
+    position: relative;
+}
+.bannerText {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;   
+}
+.bannerTitle {
+    font-size: 4rem;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.bannerDesc {
+    font-size: 2rem;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.education {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.card {
+    cursor: pointer;
+}
+.card:hover {
+    background-color: white;
+    border: 2px solid black;
+}
+.BIcon {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover {
+    border: 2px solid yellowgreen;
+}
+.card-img-top {
+    height: 50vh;
+}
